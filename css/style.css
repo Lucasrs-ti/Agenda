@@ -1,0 +1,19 @@
+tr{
+    text-align: center;
+    cursor: pointer;
+}
+
+.tag i {
+    font-size: 0.8rem;
+    font-style: normal;
+
+    margin-left: .4rem;
+
+    transform: translateY(0.08rem);
+}
+
+.close::after {
+    content: "✕";
+    height: 24px;
+    width: 24px;
+}
